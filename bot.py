@@ -52,10 +52,10 @@ def secret_disk (message):
 def text (message):
     bot.send_message(message.from_user.id, "Говно у тебя в штанах!")
 
-@bot.message_handler(regexp='1')
+@bot.message_handler(regexp='старый')
 #ловит текст со значением "1" и вызывает функцию:
 def text (message):
-    bot.send_message(message.from_user.id, "1")
+    bot.send_message(message.from_user.id, "чуваш")
 
 @bot.message_handler(commands= ['4_Exit'])
 #ловит команду /3_SecretDisk, и запускает следующую функцию:
