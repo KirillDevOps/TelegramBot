@@ -1,4 +1,4 @@
-FROM python3
+FROM python:latest
 COPY . /var/lib/telegram-bot-api
 RUN apt-get install python3-pip
 RUN pip install pytelegrambotapi
