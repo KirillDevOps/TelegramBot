@@ -21,7 +21,7 @@ def main_menu(message):
 @bot.callback_query_handler(func=lambda call: True)
 def callback_worker(call):
     if call.data == "1": #call.data это callback_data, которую мы указали при объявлении кнопки
-        bot.send_message(call.message.chat.id, 'Информация о токенах JaCarta') #запускает меню /JaCarta
+        bot.send_message(call.message.chat.id, 'Информация о токенах JaCarta') #запускает меню JaCarta
     elif call.data == "2":
         bot.send_message(call.message.chat.id, 'Информация по продукту JMS')
     elif call.data == "3":

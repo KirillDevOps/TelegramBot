@@ -10,6 +10,8 @@ key_3 = types.InlineKeyboardButton(text='SecretDick', callback_data='3')
 main_menu_keyboard.add(key_3)  # добавляем кнопку 3 в клавиатуру главного меню
 key_4 = types.InlineKeyboardButton(text='Создать заявку', callback_data='4')
 main_menu_keyboard.add(key_4)  # добавляем кнопку 4 в клавиатуру главного меню
+key_kbp = types.InlineKeyboardButton(text='База знаний', url='https://kbp.aladdin-rd.ru', callback_data='key_kbp')
+main_menu_keyboard.add(key_kbp)  # добавляем кнопку База знаний в клавиатуру главного меню
 #==================================================================================
 
 
